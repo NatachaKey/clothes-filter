@@ -17,7 +17,7 @@ function App() {
 <nav>
     <Link to="/" className="link">Shop</Link>
     <Link to="/about" className="link">About</Link>
-    <Link to="/contactUs" className="link"> Contact us</Link>
+    <Link to="/contactUs" className="link"> Contact </Link>
 </nav>
 
 <Routes> 
