@@ -89,3 +89,9 @@ nav{
   text-transform: uppercase;
   color: #000000;
 }
+
+@media all and (max-width:500px){
+  .link{
+  font-size:15px;
+  }
+}
