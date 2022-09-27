@@ -93,5 +93,7 @@ nav{
 @media all and (max-width:500px){
   .link{
   font-size:15px;
+  text-align:center;
   }
+ 
 }
