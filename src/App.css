@@ -1,99 +1,59 @@
 .products {
-
-  display: flex;
-
-  flex-wrap: wrap;
-
+     display: flex;
+     flex-wrap: wrap;
 }
-
-.productCard {
-
-  padding: 2%;
-
-  flex-grow: 1;
-
-  flex-basis: 16%;
-  text-align: center;
+ .productCard {
+     padding: 2%;
+     flex-grow: 1;
+     flex-basis: 16%;
+     text-align: center;
 }
-
-body {
-
-  background-color: #f6f6f6;
-
+ body {
+     background-color: #f6f6f6;
 }
-
-
-
-.cont {
-
-  display: flex;
-
-  justify-content: center;
-
+ .cont {
+     display: flex;
+     justify-content: center;
 }
-
-.back {
-
-  background-color: #f4eddd; 
-  flex:1;
-  text-align: center;
-font-size: 15px;
-  padding: 20px;
-margin-top:0;
- 
-
-    font-family: 'Encode Sans Semi Expanded', sans-serif;
-
-
-
+ .back {
+     background-color: #f4eddd;
+     flex:1;
+     text-align: center;
+     font-size: 15px;
+     padding: 20px;
+     margin-top:0;
+     font-family: 'Encode Sans Semi Expanded', sans-serif;
 }
-
-.change {
-
-  background-color: black;
-
-  color: white;
-
-  padding: 15px;
-
-  border: none;
-
-  font-family: 'Encode Sans Semi Expanded', sans-serif;
-
+ .change {
+     background-color: black;
+     color: white;
+     padding: 15px;
+     border: none;
+     font-family: 'Encode Sans Semi Expanded', sans-serif;
 }
-
-h3, h4 {
-
-  font-family: 'Encode Sans Semi Expanded', sans-serif;
-
+ h3, h4 {
+     font-family: 'Encode Sans Semi Expanded', sans-serif;
 }
-
-button {
-
-  margin: 10px;
-
+ button {
+     margin: 10px;
 }
-
-nav{
-  display: flex;
-  justify-content: center;
-  padding: 15px;
-  background: #cfd8dc;
-  font-size: 20px;
-  font-weight: bolder;
+ nav{
+     display: flex;
+     justify-content: center;
+     padding: 15px;
+     background: #cfd8dc;
+     font-size: 20px;
+     font-weight: bolder;
 }
-
-.link{
-  padding: 10px 40px;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #000000;
+ .link{
+     padding: 10px 40px;
+     text-decoration: none;
+     text-transform: uppercase;
+     color: #000000;
 }
-
-@media all and (max-width:500px){
-  .link{
-  font-size:15px;
-  text-align:center;
-  }
- 
+ @media all and (max-width:500px){
+     .link{
+         font-size:15px;
+         text-align:center;
+    }
 }
